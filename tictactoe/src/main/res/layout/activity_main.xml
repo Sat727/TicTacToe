@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070303"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b32"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/b23"
+        app:layout_constraintStart_toStartOf="@+id/b21"
+        app:layout_constraintTop_toBottomOf="@+id/b22" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b13"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2A2626"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b22"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="308dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/b13"
+        app:layout_constraintStart_toStartOf="@+id/b11"
+        app:layout_constraintTop_toBottomOf="@+id/b12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b23"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/b13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/b22"
+        app:layout_constraintTop_toBottomOf="@+id/b13" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b33"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#262020"
+        app:layout_constraintStart_toEndOf="@+id/b32"
+        app:layout_constraintTop_toBottomOf="@+id/b23" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b31"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/b32"
+        app:layout_constraintTop_toBottomOf="@+id/b21" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b21"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/b22"
+        app:layout_constraintTop_toBottomOf="@+id/b11" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b11"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/b12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b12"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#616161"
+        android:onClick="setStatus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/current_turn"
+        android:layout_width="299dp"
+        android:gravity="center"
+        android:layout_height="85dp"
+        android:layout_marginTop="252dp"
+        android:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/endgamescreen"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#D80D0C0C"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/twinner"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="PlaceholderWinner" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bnewGame"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="bottom"
+            android:background="#D80D0C0C"
+            android:backgroundTint="#D0005000"
+            android:text="Restart Game"
+            android:onClick="restartGame"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/b23"
+            app:layout_constraintStart_toStartOf="@+id/b21"
+            app:layout_constraintTop_toBottomOf="@+id/b22" />
+
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
