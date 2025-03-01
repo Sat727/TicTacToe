@@ -1,4 +1,4 @@
-package com.b0nggo.weather;
+package com.b0nggo.tictactoe;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.b0nggo.weather", appContext.getPackageName());
+        assertEquals("com.b0nggo.tictactoe", appContext.getPackageName());
     }
 }

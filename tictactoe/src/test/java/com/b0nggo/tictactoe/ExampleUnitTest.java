@@ -1,4 +1,4 @@
-package com.b0nggo.weather;
+package com.b0nggo.tictactoe;
 
 import org.junit.Test;
 

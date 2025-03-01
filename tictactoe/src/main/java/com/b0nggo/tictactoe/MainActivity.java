@@ -1,7 +1,6 @@
-package com.b0nggo.weather;
+package com.b0nggo.tictactoe;
 
 import android.content.res.ColorStateList;
-import android.graphics.Color;
 import android.os.Bundle;
 
 import android.util.Log;

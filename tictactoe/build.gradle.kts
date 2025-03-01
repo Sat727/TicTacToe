@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.b0nggo.weather"
+    namespace = "com.b0nggo.tictactoe"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.b0nggo.weather"
+        applicationId = "com.b0nggo.tictactor"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
