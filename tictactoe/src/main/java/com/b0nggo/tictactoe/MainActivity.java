@@ -15,57 +15,24 @@ import android.widget.TextView;
 import android.widget.FrameLayout;
 
 public class MainActivity extends AppCompatActivity {
-    static int[] row_top_buttons = {
-            R.id.b11,
-            R.id.b12,
-            R.id.b13,
+    static int[] row_top_buttons = {R.id.b11,R.id.b12,R.id.b13,
     };
-    static int[] row_middle_buttons = {
-            R.id.b21,
-            R.id.b22,
-            R.id.b23,
+    static int[] row_middle_buttons = {R.id.b21,R.id.b22,R.id.b23,
     };
-    static int[] row_bottom_buttons = {
-            R.id.b31,
-            R.id.b32,
-            R.id.b33
+    static int[] row_bottom_buttons = {R.id.b31,R.id.b32,R.id.b33
     };
-    static int[] row_horizontal_buttons_ltr = {
-            R.id.b11,
-            R.id.b22,
-            R.id.b33
+    static int[] row_horizontal_buttons_ltr = {R.id.b11,R.id.b22,R.id.b33
     };
-    static int[] row_horizontal_buttons_rtl = {
-            R.id.b13,
-            R.id.b22,
-            R.id.b31
+    static int[] row_horizontal_buttons_rtl = {R.id.b13,R.id.b22,R.id.b31
     };
-    static int[] col_left_buttons = {
-            R.id.b11,
-            R.id.b21,
-            R.id.b31
+    static int[] col_left_buttons = {R.id.b11,R.id.b21,R.id.b31
     };
-    static int[] col_right_buttons = {
-            R.id.b12,
-            R.id.b22,
-            R.id.b32
+    static int[] col_right_buttons = {R.id.b12,R.id.b22,R.id.b32
     };
-    static int[] col_mid_buttons = {
-            R.id.b13,
-            R.id.b23,
-            R.id.b33
+    static int[] col_mid_buttons = {R.id.b13,R.id.b23,R.id.b33
     };
 
-    static int[] all_buttons = {
-            R.id.b11,
-            R.id.b12,
-            R.id.b13,
-            R.id.b21,
-            R.id.b22,
-            R.id.b23,
-            R.id.b31,
-            R.id.b32,
-            R.id.b33
+    static int[] all_buttons = {R.id.b11,R.id.b12,R.id.b13,R.id.b21,R.id.b22,R.id.b23,R.id.b31,R.id.b32,R.id.b33
     };
 
     static int[][] arrays = {row_top_buttons, row_middle_buttons, row_bottom_buttons, row_horizontal_buttons_ltr, col_left_buttons, col_right_buttons, col_mid_buttons, row_horizontal_buttons_rtl};
